@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    height: 80px;
+    background-color: azure;
+    text-align: center;
+    
+}
+header h1{
+    font-size: 60px;
+    color: royalblue;
+}
+div{
+    text-align: center;
+    margin: 30px auto;
+}
+main {
+    text-align: center;
+}
+main button{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(58, 222, 255);
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+main button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgba(255, 47, 47, 0.895);
+}
+main label{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 10px;
+}
+main input{
+    font-size: 20px;
+}
+.timediv{
+    margin-left: 50px;
+}
+main div p{
+    text-align: left;
+    color: rgb(22, 186, 131);
+}
+.displaybox{
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+}
